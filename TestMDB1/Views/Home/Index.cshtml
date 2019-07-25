@@ -1,8 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿
+@{
+	ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+	<h1 class="display-4">Welcome</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="md-form my-1 mr-0">
+	<div class="select-wrapper colorful-select mb-0">
+		<span class="caret">▼</span><input type="text" class="select-dropdown" readonly data-activates="select-options-e97cbafc-0693-4aef-8bad-fb4bf5a2040f" value="">
+		<ul id="select-options" class="dropdown-content select-dropdown">
+			<span class="search-wrap ml-2">
+				<div class="md-form mt-0">
+					<input type="text" class="search form-control d-block" placeholder="Search here..">
+				</div>
+			</span>
+			<li class="disabled ">
+				<span class="filtrable">Please choose One</span>
+			</li>
+			<li class=" ">
+				<span class="filtrable">Fish &amp; Chips</span>
+			</li>
+			<li class=" ">
+				<span class="filtrable">Breakfast &amp; Brunch</span>
+			</li>
+			<li class=" ">
+				<span class="filtrable">Noodles</span>
+			</li>
+			<li>
+				<span class="filtrable">Thai</span>
+			</li>
+		</ul>
+		<select class="mb-0 mdb-select colorful-select" searchable="Search here.." id="Category" name="Category">
+			<option value="" disabled="" selected="">Please choose One</option>
+			<option value="1">Fish & Chips</option>
+			<option selected="selected" value="2">Breakfast & Brunch</option>
+			<option value="3">Noodles</option>
+			<option value="4">Thai</option>
+		</select>
+	</div>
 </div>
