@@ -2,12 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var $ = require("jquery");
 require("popper.js/dist/umd/popper.min.js");
-//import 'bootstrap/dist/js/bootstrap.min.js';
-//import bsCustomFileInput from 'mdbootstrap/js/modules/bs-custom-file-input';
 require("bootstrap/dist/js/bootstrap.min.js");
 require("mdbootstrap/js/mdb.min.js");
-// This works
-//import 'mdbootstrap/js/mdb.js';
 require("../sass/main.scss");
 $(document).ready(function () {
     // MDB Date Picker Initialization

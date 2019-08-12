@@ -14025,14 +14025,8 @@ module.exports = g;
 Object.defineProperty(exports, "__esModule", { value: true });
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 __webpack_require__(/*! popper.js/dist/umd/popper.min.js */ "./node_modules/popper.js/dist/umd/popper.min.js");
-//import 'bootstrap/dist/js/bootstrap.min.js';
-//import bsCustomFileInput from 'mdbootstrap/js/modules/bs-custom-file-input';
 __webpack_require__(/*! bootstrap/dist/js/bootstrap.min.js */ "./node_modules/bootstrap/dist/js/bootstrap.min.js");
-//window.bsCustomFileInput = require('mdbootstrap/js/modules/bs-custom-file-input');
-//import bsCustomFileInput from 'bs-custom-file-input';
 __webpack_require__(/*! mdbootstrap/js/mdb.min.js */ "./node_modules/mdbootstrap/js/mdb.min.js");
-// This works
-//import 'mdbootstrap/js/mdb.js';
 __webpack_require__(/*! ../sass/main.scss */ "./src/sass/main.scss");
 $(document).ready(function () {
     // MDB Date Picker Initialization
@@ -14063,4 +14057,4 @@ $(document).ready(function () {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.82916c478074b8c91e94.bundle.js.map
+//# sourceMappingURL=main.e4e6f332ef37dd2ee9d7.bundle.js.map

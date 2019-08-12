@@ -4,14 +4,8 @@
 
 import * as $ from 'jquery';
 import 'popper.js/dist/umd/popper.min.js';
-//import 'bootstrap/dist/js/bootstrap.min.js';
-//import bsCustomFileInput from 'mdbootstrap/js/modules/bs-custom-file-input';
 import 'bootstrap/dist/js/bootstrap.min.js';
-//window.bsCustomFileInput = require('mdbootstrap/js/modules/bs-custom-file-input');
-//import bsCustomFileInput from 'bs-custom-file-input';
 import 'mdbootstrap/js/mdb.min.js';
-// This works
-//import 'mdbootstrap/js/mdb.js';
 import '../sass/main.scss';
 
 $(document).ready(function () {
