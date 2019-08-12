@@ -3,7 +3,7 @@
 
 var path = require('path');
 var webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
@@ -87,7 +87,11 @@ module.exports = function (env) {
 				'window.jQuery': 'jquery',
 				Waves: 'node-waves'
 			}),
-			new CleanWebpackPlugin(pathsToClean, cleanOptions),
+			//new CleanWebpackPlugin(pathsToClean, cleanOptions),
+			new CleanWebpackPlugin({
+				verbose: true,
+				cleanOnceBeforeBuildPatterns: ['css/*', 'js/*']
+			}),
 			new MiniCssExtractPlugin({
 				filename: "./css/[name].[contenthash].bundle.css",
 				chunkFilename: "./css/[name].[contenthash].bundle.css"
